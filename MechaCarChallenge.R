@@ -2,12 +2,18 @@
 #
 install.packages("tidyverse")
 library(dplyr)
-#Read in the MechaCar_mpg.csv file.
+#Import and read in the MechaCar_mpg.csv file as a table.
 MPG_df <- read.csv(file="MechaCar_mpg.csv",check.names=F,stringsAsFactors = F) 
-
-lm(mpg ~ vehicle_length+vehicle_weight+spoiler_angle+ground_clearance+AWD,MPG_df) #create linear model 
+#create linear model 
+lm(mpg ~ vehicle_length+vehicle_weight+spoiler_angle+ground_clearance+AWD,MPG_df) 
+#Using the summary() function, determine the p-value and the r-squared value for the linear regression model.
 summary(lm(mpg ~ vehicle_length+vehicle_weight+spoiler_angle+ground_clearance+AWD,MPG_df))
 
 
+#Import and read in the Suspension_Coil_df file as a table.
+Suspension_Coil_df <- read.csv(file="Suspension_Coil.csv",check.names=F,stringsAsFactors = F) 
 
-
+#Create a total_summary dataframe using the summarize() function to get the mean, median, variance, and standard deviation of the suspension coil’s PSI column
+total_summary <-Suspension_Coil_df  %>% summarize(Mean=mean(PSI), Median= median(PSI),Variance=var(PSI),SD=sd(PSI), .groups = 'keep')
+# Create a lot_summary dataframe using the group_by() and the summarize() functions to group each manufacturing lot 
+lot_summary <-Suspension_Coil_df %>% group_by(Manufacturing_Lot)  %>% summarize(Mean=mean(PSI), Median= median(PSI),Variance=var(PSI),SD=sd(PSI), .groups = 'keep')
