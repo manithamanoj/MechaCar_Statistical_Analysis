@@ -37,15 +37,18 @@ But from the PSI metrics for each lot (lot_summary) Lot 3 has larger variance (1
 We are going to perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch using R
 
 We write an RScript using the t.test() function to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch. The t-test gives us a  p-value = 0.06028>0.05 and failed to reject the null hypothesis, which means that there is no statistical difference between the observed sample mean and the presumed population mean
+
 <img width="641" alt="Screen Shot 2022-04-09 at 1 42 17 AM" src="https://user-images.githubusercontent.com/72629108/162564146-8091e78b-12a2-47ed-b7c9-0eb16de7bc6a.png">
 Next we administer t.test() to determine if the PSI across manufacturing lot1 is statistically different from the population mean of 1,500 pounds per square inch.The t-test gives us a  p-value =1>0.05 and failed to reject the null hypothesis, which means that there is no statistical difference between the observed sample mean and the presumed population mean
+
 <img width="641" alt="Screen Shot 2022-04-09 at 1 40 49 AM" src="https://user-images.githubusercontent.com/72629108/162564662-4cb4cba1-285e-4bb9-8fcc-714b3607c8cc.png">
 
-
 Next we administer t.test() to determine if the PSI across manufacturing lot2 is statistically different from the population mean of 1,500 pounds per square inch.The t-test gives us a  p-value = 0.6072>0.05 and failed to reject the null hypothesis, which means that there is no statistical difference between the observed sample mean and the presumed population mean
+
 <img width="641" alt="Screen Shot 2022-04-09 at 1 40 58 AM" src="https://user-images.githubusercontent.com/72629108/162564667-42179340-7863-4b77-bd89-bf42917b006b.png">
 
 
 Finally we administer t.test() to determine if the PSI across manufacturing lot3 is statistically different from the population mean of 1,500 pounds per square inch.The t-test gives us a  p-value = 0.04168<0.05 and we reject the null hypothesis, which means that there is a significant statistical difference between the observed sample mean and the presumed population mean
+
 <img width="641" alt="Screen Shot 2022-04-09 at 1 41 18 AM" src="https://user-images.githubusercontent.com/72629108/162564680-d17b0047-6920-402f-b762-8bbe564502b9.png">
 
