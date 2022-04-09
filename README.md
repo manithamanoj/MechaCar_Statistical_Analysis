@@ -15,11 +15,12 @@ In this challenge we and the data analytics team is going to review the producti
 <img width="666" alt="Screen Shot 2022-04-08 at 10 19 52 AM" src="https://user-images.githubusercontent.com/72629108/162497454-6a869d18-cbb6-40fc-a08c-086c2335fa08.png">
 
 
-  To determine which variables provide a significant contribution to the linear model, we must look at the individual variable p-values.According to our results, vehicle length and ground clearance as well as intercept are statistically unlikely to provide random amounts of variance to the linear model. In other words the vehicle length and ground clearance have a significant impact on MPG. When an intercept is statistically significant, it means that the intercept term explains a significant amount of variability in the dependent variable when all independent variables are equal to zero.
+  * To determine which variables provide a significant contribution to the linear model, we must look at the individual variable p-values.According to our results, vehicle length and ground clearance as well as intercept are statistically unlikely to provide random amounts of variance to the linear model. In other words the vehicle length and ground clearance have a significant impact on MPG. When an intercept is statistically significant, it means that the intercept term explains a significant amount of variability in the dependent variable when all independent variables are equal to zero.
 Depending on our dataset, a significant intercept could mean that the significant features (such as vehicle length and ground clearance) may need scaling or transforming to help improve the predictive power of the model.Also it may mean that there are other variables that can help explain the variability of our dependent variable that have not been included in our model.
- This multiple linear regression model has a p-value: 5.35e-11 which is much smaller than our assumed significance level of 0.05%. Hence we reject our null hypothesis, which means that the slope of our linear model is not zero.
+ 
+ * This multiple linear regression model has a p-value: 5.35e-11 which is much smaller than our assumed significance level of 0.05%. Hence we reject our null hypothesis, which means that the slope of our linear model is not zero.
 
- By combining the p-value: 5.35e-11 of our hypothesis test with the r-squared value 0.7149 , the   multiple regression model does predict MPG effectively
+* By combining the p-value: 5.35e-11 of our hypothesis test with the r-squared value 0.7149 , the   multiple regression model does predict MPG effectively
 
 
 ## Summary Statistics on Suspension Coils
