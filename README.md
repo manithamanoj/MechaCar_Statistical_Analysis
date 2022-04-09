@@ -28,3 +28,6 @@ The MechaCar Suspension_Coil.csv dataset contains the results from multiple prod
 * The following PSI metrics for each lot: mean, median, variance, and standard deviation.
 
 <img width="499" alt="Screen Shot 2022-04-08 at 11 59 35 AM" src="https://user-images.githubusercontent.com/72629108/162556552-e486f329-877f-4933-ae3a-fb6c44420459.png">
+
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch.When we look at the summary statisticsacross all manufacturing lots  the  variance is 	62.29356, which is less than 100 pounds per square inch. 
+
