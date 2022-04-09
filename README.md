@@ -59,4 +59,15 @@ Finally we administer t.test() to determine if the PSI across manufacturing lot3
 
 
 ## Study Design: MechaCar vs Competition
-We design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
+We design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from the competitioner.In this study we collect City fuel efficiency data  of MechaCar and its competitioner for 3 years
+
+* Metric
+   * City fuel efficiency
+
+* Hypothesis: Null and Alternative
+H0 : The difference between our paired observations (the true mean difference, or "μd") is equal to zero.
+Ha : The difference between our paired observations (the true mean difference, or "μd") is not equal to zero.
+
+* Statistical Tests
+Here  we are comparing different methods of measurement,city fuel efficiency of two different make.So we choose a paired two sample t-test.
+A paired two-sample t-Test is used to determine if there is a statistical difference in overall city fuel efficiency between MechaCar and its competitioner  assuming a significance level of 0.05 percent.
