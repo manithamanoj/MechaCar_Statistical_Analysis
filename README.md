@@ -1,11 +1,11 @@
 # MechaCar_Statistical_Analysis
 # Introduction
-In this challenge we and the data analytics team is going to review the production data of  Mecha car, which is suffering from production troubles and are blocking the manufacturing team’s progress, to discover insights that may help the manufacturing team. For that we are going to
+In this challenge we and the data analytics team are going to review the production data of  Mecha car, which is suffering from production troubles and are blocking the manufacturing team’s progress, to discover insights that may help the manufacturing team. For that we are going to;
 
 * Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes
 * Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots
 * Run t-tests to determine if the manufacturing lots are statistically different from the mean population
-* Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. 
+* And design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. 
 
 ## Results
 
