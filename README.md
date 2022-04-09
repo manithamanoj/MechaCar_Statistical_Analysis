@@ -65,9 +65,11 @@ We design a statistical study to compare performance of the MechaCar vehicles ag
    * City fuel efficiency
 
 * Hypothesis: Null and Alternative
+
 H0 : The difference between our paired observations (the true mean difference, or "μd") is equal to zero.
+
 Ha : The difference between our paired observations (the true mean difference, or "μd") is not equal to zero.
 
 * Statistical Tests
-Here  we are comparing different methods of measurement,city fuel efficiency of two different make.So we choose a paired two sample t-test.
+Here  we are comparing different methods of measurement,city fuel efficiency of cars of two different makes.So we choose a paired two sample t-test.
 A paired two-sample t-Test is used to determine if there is a statistical difference in overall city fuel efficiency between MechaCar and its competitioner  assuming a significance level of 0.05 percent.
